@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color:rgb(240,190,7);
+    background-image: linear-gradient(120deg,#333,#dc193d);
+    
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.day,.hour, .minutes, .second{
+    font-size: 5rem;
+    color: rgb(240,190,7);
+}
+.waiting{
+        height: 50vh;
+        margin-top: 3rem ;
+}
+.hello{
+    margin: 0;
+    overflow: hidden;
+}
